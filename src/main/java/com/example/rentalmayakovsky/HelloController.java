@@ -21,6 +21,7 @@ public class HelloController {
         String sql = "SELECT * FROM users";
         ResultSet resultSet = statement.executeQuery(sql);
         while (resultSet.next()) {
+            
         }
 
         welcomeText.setText("Welcome to JavaFX Application!");
